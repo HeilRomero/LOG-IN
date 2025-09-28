@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="ForgetPWStyle.css">
+    <title>Forgot Password</title>
+</head>
+<body>
+    <div class="container">
+        <h2>Forgot Password</h2>
+        
+        <form action="/forgot-password-lrn" method="POST">
+            <div class="form-group">
+                <label for="lrn">Student LRN</label>
+                <input type="text" id="lrn" name="lrn" placeholder="Enter your Student LRN" required>
+            </div>
+            
+            <button type="submit">Reset</button>
+        </form>
+        
+        <div class="back-link">
+            <a href="../Login/Login.html">Back to Login</a>
+        </div>
+    </div>
+
+</body>
+</html>
